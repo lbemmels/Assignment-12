@@ -39,18 +39,10 @@ a	{
 	text-decoration: none;
 }
 
-
-nav { 
-	padding: 40px 0px 40px 0px;
-	ul {list-style: none; font-size:1.5em; font-family:$headerfont;}
-	li {display: inline; margin: 0px 20px 0px 0px; padding: 10px; background-color:$mid; 	@include border-radius(15px);}
-}
-
 section {
 	margin: 0px 0px 20px 0px;
 	h1 {color:$red; background-color:$white; font-size: 3em; text-transform:uppercase; padding: 10px; @include border-radius(15px);}
 }
-
 
 article {
 	margin: 25px 0px 25px 0px;

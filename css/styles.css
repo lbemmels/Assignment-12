@@ -58,6 +58,64 @@ body {
   width: 640px;
   margin: 10px auto; }
 
+nav {
+  padding: 40px 0px 60px 0px; }
+
+article {
+  margin: 25px 0px 25px 0px;
+  padding: 0px 0px 15px 0px;
+  background-color: #2980B9;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  color: #ECF0F1; }
+
+footer {
+  padding: 0px 0px 10px 0px; }
+
+h1 {
+  color: #ECF0F1;
+  font-family: "Helvetica", sans serif;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+header h2 {
+  color: #ECF0F1;
+  font-size: 1em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 20px 0px 0px 0px; }
+
+nav ul {
+  list-style: none;
+  font-size: 1.5em;
+  font-family: "Helvetica", sans serif; }
+nav li {
+  display: inline;
+  margin: 0px 20px 0px 0px;
+  padding: 10px;
+  background-color: #3498DB;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px; }
+
+article h2 {
+  font-family: "Helvetica", sans serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 5px 0px 15px 15px; }
+article h3 {
+  font-size: 1.5em;
+  padding: 0px 0px 0px 15px; }
+article ul {
+  list-style: disc;
+  font-size: 1em;
+  margin: 5px 0px 0px 60px; }
+article li {
+  padding: 0px 60px 10px 0px; }
+
 footer {
   color: #ECF0F1; }
   footer h1 {
@@ -84,21 +142,8 @@ footer {
     footer nav a {
       color: white;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      font-size: 1em;
-      font-weight: none; }
-
-h1 {
-  color: #ECF0F1;
-  font-family: "Helvetica", sans serif;
-  font-size: 4em;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-header h2 {
-  color: #ECF0F1;
-  font-size: 1em;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  padding: 20px 0px 0px 0px; }
+      text-transform: lowercase;
+      font-size: 1em; }
 
 img {
   -webkit-border-radius: 30px;
@@ -117,22 +162,6 @@ a {
   font-size: 1.1em;
   font-weight: bold;
   text-decoration: none; }
-
-nav {
-  padding: 40px 0px 40px 0px; }
-  nav ul {
-    list-style: none;
-    font-size: 1.5em;
-    font-family: "Helvetica", sans serif; }
-  nav li {
-    display: inline;
-    margin: 0px 20px 0px 0px;
-    padding: 10px;
-    background-color: #3498DB;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    border-radius: 15px; }
 
 section {
   margin: 0px 0px 20px 0px; }

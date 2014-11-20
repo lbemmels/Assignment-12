@@ -61,18 +61,16 @@ html {background-color:$dark;}
 
 body {width: 640px; margin: 10px auto;}
 
-footer {
+nav {padding: 40px 0px 60px 0px;}
+
+article {
+	margin: 25px 0px 25px 0px;
+	padding: 0px 0px 15px 0px;
+	background-color:$light; 
+	@include border-radius(15px);
 	color:$white;
-	h1 {font-family:$headerfont; font-weight: bold; font-size: 0.75em; text-transform: lowercase; display: inline;}
-	
-	h2 {font-family:$headerfont; font-size: 0.75em; display: inline;}
-	
-	nav {
-	display: inline;
-	ul {display: inline; list-style: none; font-size:0.75em;}
-	li {display: inline; margin: 0px 0px 0px 10px; padding: 10px; background-color:$dark;}
-	a {color: white; font-family:$bodyfont; font-size: 1em; font-weight: none;}
-	}
 	
 }
+
+footer {padding: 0px 0px 10px 0px;}
 
