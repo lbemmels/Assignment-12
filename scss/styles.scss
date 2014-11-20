@@ -5,10 +5,26 @@ $mid: #3498DB;
 $light: #2980B9;
 $headerfont: "Helvetica", sans serif;
 $bodyfont: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
 
 @import 'layout';
 @import 'text';
 
+
+
+img {
+	@include border-radius(30px);
+	width: 610px;
+	padding: 15px;
+
+}
 
 p	{
 	padding: 10px 15px 10px 15px;
@@ -24,24 +40,26 @@ a	{
 }
 
 
-nav {
+nav { 
 	padding: 40px 0px 40px 0px;
 	ul {list-style: none; font-size:1.5em; font-family:$headerfont;}
-	li {display: inline; margin: 0px 20px 0px 0px; padding: 10px; background-color:$mid;}
+	li {display: inline; margin: 0px 20px 0px 0px; padding: 10px; background-color:$mid; 	@include border-radius(15px);}
 }
 
 section {
-	margin: 10px 0px 50px 0px;
-	background-color:$white;
-	h1 {color:$red; font-size: 3em; text-transform:uppercase; padding: 10px;}
+	margin: 0px 0px 20px 0px;
+	h1 {color:$red; background-color:$white; font-size: 3em; text-transform:uppercase; padding: 10px; @include border-radius(15px);}
 }
 
 
 article {
+	margin: 25px 0px 25px 0px;
+	padding: 0px 0px 15px 0px;
 	background-color:$light; 
+	@include border-radius(15px);
 	color:$white;
-	h2 {font-family:$headerfont; font-weight: bold; font-size:2em; padding: 15px;}
-	h3 {font-size:1.5em; padding: 5px 0px 5px 15px;}
+	h2 {font-family:$headerfont; font-weight: bold; font-size:2em; padding: 5px 0px 15px 15px;}
+	h3 {font-size:1.5em; padding: 0px 0px 0px 15px;}
 	ul {list-style: disc; font-size:1em; margin: 5px 0px 0px 60px;}
 	li {padding: 0px 60px 10px 0px;}
 	

@@ -100,6 +100,14 @@ header h2 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   padding: 20px 0px 0px 0px; }
 
+img {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  width: 610px;
+  padding: 15px; }
+
 p {
   padding: 10px 15px 10px 15px; }
 
@@ -120,28 +128,42 @@ nav {
     display: inline;
     margin: 0px 20px 0px 0px;
     padding: 10px;
-    background-color: #3498DB; }
+    background-color: #3498DB;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px; }
 
 section {
-  margin: 10px 0px 50px 0px;
-  background-color: #ECF0F1; }
+  margin: 0px 0px 20px 0px; }
   section h1 {
     color: #E74C3C;
+    background-color: #ECF0F1;
     font-size: 3em;
     text-transform: uppercase;
-    padding: 10px; }
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px; }
 
 article {
+  margin: 25px 0px 25px 0px;
+  padding: 0px 0px 15px 0px;
   background-color: #2980B9;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
   color: #ECF0F1; }
   article h2 {
     font-family: "Helvetica", sans serif;
     font-weight: bold;
     font-size: 2em;
-    padding: 15px; }
+    padding: 5px 0px 15px 15px; }
   article h3 {
     font-size: 1.5em;
-    padding: 5px 0px 5px 15px; }
+    padding: 0px 0px 0px 15px; }
   article ul {
     list-style: disc;
     font-size: 1em;
